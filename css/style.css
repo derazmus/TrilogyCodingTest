@@ -3,8 +3,13 @@ nav{
 	opacity: 0.5
 }
 
+#trilogy_logo{
+	padding-left: 130px;
+}
+
 #text{
 	color: white;
+	font-family: 'Roboto', sans-serif;
 }
 
 #hero{
@@ -16,18 +21,39 @@ nav{
 	padding-right: 0px;
 }
 
+#hero-text{
+	color: white;
+	font-family: 'Roboto Slab', serif;
+}
+
+#hero-text-2{
+	color: white;
+	font-family: 'Roboto Slab', serif;
+	text-align:right;
+}
+
+
+#coding{
+	font-family: 'Roboto Slab', serif;
+	color: #38bcbd;
+}
 #featuring-text{
 	color: white;
 	text-decoration: underline;
 	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 40px;
 }
 #feature{
 	background-image: url("../assets/featuring.jpg");
 	background-size: 100%;
-	padding-bottom: 10px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
-/*data coding and benefit image*/
+/*data coding, benefits, time and project images*/
 #data_coding, #benefit, #time, #project{
 	height: 100px;
 	width: 100px;
@@ -41,9 +67,52 @@ nav{
 #data_coding_text, #benefit_text, #time_text, #project_text{
 	text-align: center;
 	color: white;
+	font-family: 'Roboto', sans-serif;
 }
 
 #phone{
 	height: 500px;
 	width: 300px;
+}
+
+#sub-text{
+	text-align: center;
+	color: white;
+	font-family: 'Roboto Slab', serif;
+}
+
+#story{
+	background-image: url("../assets/about.jpg");
+	background-size: 100%;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+#story_title{
+	color: #38bcbd;
+	text-align: center;
+	text-decoration: underline;
+}
+
+#story_text{
+	color: white;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+#questions{
+	background-image: url("../assets/faq.jpg");
+	background-size: 100%;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+#questions_title{
+	color: black;
+	text-decoration: underline;
+	font-family: 'Roboto', sans-serif;
 }

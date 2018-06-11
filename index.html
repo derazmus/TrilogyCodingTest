@@ -8,48 +8,48 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <!--bootstrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
 </head>
 
 <body>
     <!-- navbar/header -->
     <div id="hero" class="jumbotron">
         <nav class="navbar">
-            <span><div id="company_logo" href="assets/logo_trilogy_blk"></div></span>
+            <img id= "trilogy_logo"src="assets/logo_trilogy.svg">
             <span id="text" class="navbar-brand"> To speak with an admissions advisor call---</span>
         </nav>
         <!--Hero-->
         <div class="container">
             <div class="row">
-                <div class="col-sm">
+                <div id="hero-text" class="col-sm">
                     <p>
-                        <h1> Learn Coding </h1></p>
-                    <p>
-                        <h1>in 24 weeks </h1></p>
+                        <h1> Learn Coding in 24 weeks </h1></p>
                     <p>
                         Classes start May 15, 2018 </p>
                 </div>
-                <div class="col-sm">
+                <div id="hero-text-2" class="col-sm">
                     <p>
-                        <h1> Coding </h1></p>
-                    <p> Coding bootcamp equips students skills for full-stack web developement through dynamic, in-person classes.</p>
+                        <h1 style={color: blue}> Coding </h1></p>
+                    <p> Coding Boot-Camp equips students skills for full-stack web developement through dynamic, in-person classes.</p>
                 </div>
             </div>
             <div class="row">
                 <div class="card col-sm">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <div id="hero-card" class="card-body">
+                        <h5 class="card-title">Get Program Info</h5>
+                        <p class="card-text">First Name</p>
+                        <p class="card-text">Last Name</p>
                         <a href="#" class="btn btn-primary">Button</a>
                     </div>
                 </div>
-                <div class="col-sm">
+                <div id="hero-text-2" class="col-sm">
                     <p>
                         <h1> Data Analytics </h1></p>
-                    <p>Data Boot Camp equips students with the key skills for full-stack web development through dynamic, in person classes.</p>
+                    <p>Data Boot-Camp equips students with the key skills for full-stack web development through dynamic, in person classes.</p>
                 </div>
             </div>
         </div>
-    </div>
     </div>
     <!--featuring-->
     <div id="feature" class="jumbotron">
@@ -61,7 +61,7 @@
                     <p id="data_coding_text"> Learn Advanced Excel, Python, Javascript(D3.js, Leaflet.js), HTML5/CSS, API interactions, Social Media Mining, SQL, Tableau, Advanced Statistics, Machine Learning, r, Git/Guthub, and more. *</p>
                     <img id="benefit" src="./assets/icons/benefit.svg">
                     <p id="benefit_text"> Learn Advanced Excel, Python, Javascript(D3.js, Leaflet.js), HTML5/CSS, API interactions, Social Media Mining, SQL, Tableau, Advanced Statistics, Machine Learning, r, Git/Guthub, and more. *</p>
-</div>
+                </div>
                 <div class="col">
                     <img id="phone" src="./assets/phone.png">
                 </div>
@@ -71,7 +71,39 @@
                     <br>
                     <br>
                     <img id="project" src="./assets/icons/complete_proj.svg">
-                    <p id="project_text">Complete projects using real data sets fro tghe worlds of finace, healthcare, government, social welfare, and more- allowing you to build a strong portfolio with a professional demonstration. </p>
+                    <p id="project_text">Complete projects using real data sets from the worlds of finace, healthcare, government, social welfare, and more- allowing you to build a strong portfolio with a professional demonstration. </p>
+                </div>
+            </div>
+            <br>
+            <p id="sub-text"> * The material in this course is subject to change due to market demand. </p>
+        </div>
+    </div>
+    <!--story-->
+    <div id="story" class="jumbotron">
+        <p id="story_title"> Our Story </p>
+        <p id="story_text"> Last year, U.S. companies struggled to fill more than 1.3 million job openings in software development. The market is responding to this demand, but most students turn to standalone code developement boot camps for the answer. </p>
+    </div>
+    <!--quetsions-->
+    <div id="questions" class="jumbotron">
+        <div class="container">
+            <p id="questions_title"> Frequently Asked Questions </p>
+            <p>
+                <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
+            </p>
+            <div class="row">
+                <div class="col">
+                    <div class="collapse multi-collapse" id="multiCollapseExample1">
+                        <div class="card card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="collapse multi-collapse" id="multiCollapseExample2">
+                        <div class="card card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
