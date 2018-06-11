@@ -1,0 +1,49 @@
+nav{
+	background: black;
+	opacity: 0.5
+}
+
+#text{
+	color: white;
+}
+
+#hero{
+	background-image: url("../assets/code_hero.jpg");
+	background-size: 100%;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+#featuring-text{
+	color: white;
+	text-decoration: underline;
+	text-align: center;
+}
+#feature{
+	background-image: url("../assets/featuring.jpg");
+	background-size: 100%;
+	padding-bottom: 10px;
+}
+
+/*data coding and benefit image*/
+#data_coding, #benefit, #time, #project{
+	height: 100px;
+	width: 100px;
+	align-items: center;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#data_coding_text, #benefit_text, #time_text, #project_text{
+	text-align: center;
+	color: white;
+}
+
+#phone{
+	height: 500px;
+	width: 300px;
+}
